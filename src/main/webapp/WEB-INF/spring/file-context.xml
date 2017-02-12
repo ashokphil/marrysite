@@ -34,9 +34,9 @@
 		destroy-method="close">
 		<beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<beans:property name="url"
-			value="jdbc:mysql://localhost:3306/vehicletrack" />
-		<beans:property name="username" value="root" />
-		<beans:property name="password" value="root" />
+			value="jdbc:mysql://172.31.2.65:3306/sampledb" />
+		<beans:property name="username" value="user20C" />
+		<beans:property name="password" value="utyjFl4teHCfASMT" />
 	</beans:bean>
 <beans:bean id="userValidator" class="com.ashok.marrysite.validator.UserFormValidator" />
 	<!-- Hibernate 4 SessionFactory Bean definition -->
@@ -64,7 +64,7 @@
 			<beans:props>
 				<beans:prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect
 				</beans:prop>
-				<beans:prop key="hibernate.hbm2ddl.auto">validate
+				<beans:prop key="hibernate.hbm2ddl.auto">update
 				</beans:prop>
 				<beans:prop key="hibernate.show_sql">true</beans:prop>
 				
