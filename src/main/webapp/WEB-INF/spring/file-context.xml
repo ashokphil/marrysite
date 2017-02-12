@@ -34,7 +34,7 @@
 		destroy-method="close">
 		<beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<beans:property name="url"
-			value="jdbc:mysql://172.31.2.65:3306/sampledb" />
+			value="jdbc:mysql://mysql:3306/sampledb" />
 		<beans:property name="username" value="user20C" />
 		<beans:property name="password" value="utyjFl4teHCfASMT" />
 	</beans:bean>
